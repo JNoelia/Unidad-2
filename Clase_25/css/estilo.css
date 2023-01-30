@@ -1,0 +1,21 @@
+img{
+width: 150px;
+border-radius: 10px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: darkorange;
+}
+
+.fila{
+display: flex;
+align-items: center;
+
+justify-content: center;
+}
+
+.fila > p{
+text-align: center;
+line-height: 40px;
+}

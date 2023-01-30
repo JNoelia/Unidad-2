@@ -1,0 +1,108 @@
+ .titulo{
+  font-family: Clarendon Blk BT;
+  font-weight : bold;
+  font-size:45px; 
+ }
+  
+.espacio{
+  padding: 25px;
+}
+
+.fondo {
+  margin: 12px;
+  text-align: center;
+  margin-top: 5%;
+
+ background-image:       
+url(https://images4.alphacoders.com/966/966314.jpg);
+  
+background-repeat: no-repeat; 
+  background-position: center;
+  /* expandir la imagen en toda  la pagina */
+  background-size: auto;
+}
+
+.fondo p{
+  font-size: 18px;
+  color: #090808;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+   position: relative;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, ;
+  width: 190px;
+}
+.inputs{
+    color: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    background-color:#a097dd;
+    border: 2px solid #000000;
+    font-family: system-ui;
+    padding-left:45%;  /*Para cambiar el tamaño se hace desde el input con size  size="" */
+    padding-top:10px;
+}
+
+.button_encrip{
+  font-family: Clarendon Blk BT;
+  font-size: 27px; 
+  padding: 10px 50px;
+  border-radius: 8px; 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0  rgba(0,0,0,0.19);
+  cursor: pointer;
+/* Propiedades de color */
+  background-color: #beae97; 
+  color: #ffffff;
+  border: 2px solid #6d6150;   
+}  
+ 
+.button_encrip:hover{
+  border: 5px double #5a4930;
+}
+   
+.button_desencrip{
+font-family: Clarendon Blk BT;
+font-size: 27px; 
+padding: 10px 24px;  
+border-radius: 8px; 
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+cursor: pointer;
+/*Propiedades de color */
+  background-color:#a3a7e0 ; 
+  color: #ffffff;
+  border: 2px solid #595bc5;     
+}
+.button_desencrip:hover{
+  border: 5px double #3c0085;
+}
+  
+.alerta {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    
+    font-family:EngraversGothic BT;
+  
+
+}
+.labels {
+  border: 2px solid black ;
+  border-style: dotted;
+  background-color: #beae97 ;
+  padding: 30px ;
+  text-shadow: 2px 2px 5px #88612b;
+  color: black ;
+ font-family: cursive;
+  font-size: 30px;
+}
+
+
+
+
+
+/* https://images4.alphacoders.com/966/966314.jpg */
+
+
+

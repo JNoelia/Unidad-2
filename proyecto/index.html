@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="style.css">
+<!--   link del boton -->
+  <link rel="stylesheet" href="button.css">
+</head>
+
+<body class="fondo">
+  <header>
+        <h1 class="titulo"> Codificador y Decodificador </h1> <hr>
+    </header>
+
+    <main>
+        <p>
+            Bienvenidos a un sistema de cifrado , este sistema te permite cifrar y descifrar texto a partir de un algoritmo de cifrado.
+
+            Para cifrar un texto(encriptar) simplemente hay que poner en el recuadro superior el texto que quieres cifrar(encriptar) y poner una contraseña. Después de enviarlo desaparecerá el texto original del recuadro y aparecerá el texto cifrado.
+            
+            Para descifrar(desencriptar) un texto colocas el  texto cifrado ,luego de reeenviarlo te aparecera el texto original.
+        </p>
+
+      
+      <label  for="nombre"></label>
+        <input  class="inputs" type="text" id="nombre" placeholder="Ingrese su nombre">
+<br> <br>
+        <label for="password"></label>
+        <input class="inputs" type="password" placeholder="Ingrese contraseña" id="password"> <br><br>
+
+      
+      
+        <button class="butt" onclick="ingresar()" >INGRESAR</button>
+
+        <span class ="alerta" id="error"> </span>
+
+        <button onclick="ir_crear()">Crear cuenta</button>
+        
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+  
+  <script src="script.js"></script>
+ 
+  <!-- This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink! -->
+  
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

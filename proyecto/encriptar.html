@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="button.css">
+</head>
+
+<body class="fondo">
+  <header>
+    <i class="fa-solid fa-arrow-up" onclick="opciones()"></i>
+        <h1 class="titulo"> Encriptar </h1>
+    </header>
+    <main>
+        <label for="mensaje">Mensaje:</label>
+        <input type="text" id="mensaje"> <br> <br>
+      
+ <a  class="btn-neon" onclick="encriptar()" >
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Encriptar
+    </a>
+      
+<br><br>
+
+
+      <div class="labels">
+        <label  for="msjEncript"> Mensaje Encriptado: </label>
+        <span  id="msjEncript"></span> <br><br>
+
+      </div>
+
+        
+    </main>
+    <footer>
+
+    </footer>
+    
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
